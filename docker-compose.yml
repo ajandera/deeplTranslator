@@ -1,0 +1,10 @@
+version: '2'
+services:
+    php:
+        build: ./docker
+        volumes:
+          - ".:/var/www/html"
+        environment:
+          DEEPL_KEY: xxx
+        ports:
+            - 8081:80

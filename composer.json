@@ -1,0 +1,21 @@
+{
+    "name": "ajandera/deepltranslator",
+    "description": "Translate json file by deepl api",
+    "type": "project",
+    "license": ["MIT"],
+    "authors": [
+        {
+            "name": "Ales Jandera",
+            "email": "ales.jandera@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">= 7.0",
+        "ext-fileinfo": "~1.0",
+        "nette/nette": "2.3.*",
+        "kdyby/console": "2.4.*"
+    },
+    "require-dev": {
+        "nette/tester": "@dev"
+    }
+}
